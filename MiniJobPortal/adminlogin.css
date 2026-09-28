@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* LEFT SIDE */
+.left {
+    flex: 1;
+    background: linear-gradient(135deg, #111827, #1e293b);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.left h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+.left p {
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+/* RIGHT SIDE */
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.card {
+    width: 320px;
+    padding: 30px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+
+/* TABS */
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    background: transparent;
+    color: #aaa;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.tabs button.active {
+    color: #38bdf8;
+    border-bottom: 2px solid #38bdf8;
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+    background: #1e293b;
+    color: white;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #38bdf8;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+/* MESSAGE */
+#msg {
+    margin-top: 10px;
+    color: #f87171;
+}
